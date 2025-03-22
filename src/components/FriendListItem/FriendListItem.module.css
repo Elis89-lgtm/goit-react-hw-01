@@ -1,0 +1,24 @@
+.friend-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.friend-avatar {
+  border-radius: 50%;
+}
+
+.friend-name {
+  font-weight: bold;
+}
+
+.friend-status.online {
+  color: green;
+}
+
+.friend-status.offline {
+  color: red;
+}
