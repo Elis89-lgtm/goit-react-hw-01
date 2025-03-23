@@ -6,9 +6,4 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
-  esbuild: {
-    json: {
-      stringify: true,
-    },
-  },
 });
