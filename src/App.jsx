@@ -5,10 +5,11 @@ import TransactionHistory from './components/TransactionHistory/TransactionHisto
 import userData from './Data/userData.json';
 import friends from './components/FriendList/Friends.json';
 import transactions from './transactions.json';
-
+import ConfettiEffect from './components/ConfettiEffect/ConfettiEffect';
 const App = () => {
   return (
     <div>
+      <ConfettiEffect />
       <Profile
         name={userData.username}
         tag={userData.tag}
